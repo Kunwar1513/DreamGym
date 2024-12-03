@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="Img/Logo.png" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/32f5889744.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/ScrollTrigger.min.js"></script>
+    <title>Dream Gym</title>
+  </head>
+  <body>
+    <div class="loader" id="loader"></div>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html"><img src="Img/Logo.png" alt="" /></a>
+        </div>
+        <ul class="nav-links active" id="nav-links" style="overflow: hidden;">
+          <div class="resp-icon">
+            <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+          </div>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#schedule">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="resp-icon">
+          <i class="fa-solid fa-bars" id="bars" onclick="showMenu()"></i>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="row">
+          <div class="col">
+            <span
+              >Build Your Body &
+              <br />
+              <strong>Shape<br />Yourself !</strong>
+            </span>
+            <div class="line"></div>
+            <p>
+              "Welcome to Dream Gym, where fitness meets excellence. Our
+              state-of-the-art facility is a haven for health enthusiasts,
+              offering top-notch equipment, expert trainers, and a supportive
+              community to help you achieve your fitness goals. Whether you're a
+              beginner or a seasoned athlete. Join us today and embark on a
+              journey to a healthier, stronger you!"
+            </p>
+            <p>Your fitness journey starts here.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+          </div>
+          <div class="col">
+            <img src="Img/couple.png" alt="" />
+            <div class="pattern">
+              <img src="Img/graph.png" alt="" />
+              <img src="Img/graph (4).png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-us">
+      <div class="row">
+        <div class="col">
+          <img src="Img/aboutus.png" alt="" />
+          <img src="Img/dot-bg.png" alt="" />
+        </div>
+        <div class="col">
+          <h1>Our Story</h1>
+          <div class="line"></div>
+          <p>
+            At Dream Gym, we're more than just a place to work out. We're a
+            community dedicated to helping you achieve your health and fitness
+            aspirations.
+          </p>
+          <div class="row-1">
+            <div class="col-1">
+              <span>
+                <img src="Img/People.png" alt="" />
+                <div class="small-row">
+                  <h1>Strong Community</h1>
+                  <p>
+                    We offer a wide range of equipment and fitness programs to
+                    cater to your unique needs, ensuring that every visit to our
+                    gym is an opportunity for progress and growth.
+                  </p>
+                </div>
+              </span>
+            </div>
+            <div class="col-1">
+              <span>
+                <img src="Img/gym.png" alt="" />
+                <div class="small-row">
+                  <h1>Personal Trainer</h1>
+                  <p>
+                    We offer a wide range of equipment and fitness programs to
+                    cater to your unique needs, ensuring that every visit to our
+                    gym is an opportunity for progress and growth.
+                  </p>
+                </div>
+              </span>
+            </div>
+            <div class="col-1">
+              <span>
+                <img src="Img/shield-solid.svg" alt="" />
+                <div class="small-row">
+                  <h1>Fully Insured</h1>
+                  <p>
+                    We offer a wide range of equipment and fitness programs to
+                    cater to your unique needs, ensuring that every visit to our
+                    gym is an opportunity for progress and growth.
+                  </p>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <h2>Our Services</h2>
+      <div class="line"></div>
+      <p>
+        "Join us today and embark on a journey to a healthier, stronger you. Our
+        fitness services are tailored to meet your needs and exceed your
+        expectations."
+      </p>
+      <div class="row">
+        <div class="col">
+          <div class="container">
+            <div class="card">
+              <div class="front">
+                <img src="Img/thomas-yohei-BAlBUJb-SXQ-unsplash.jpg" alt="" />
+                <h3>Group Fitness</h3>
+                <p>Jumba Dance</p>
+              </div>
+              <div class="back">
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="card">
+              <div class="front">
+                <img src="Img/total-shape-Drq07X98BqM-unsplash.jpg" alt="" />
+                <h3>HIIT</h3>
+                <p>Circuit Trainning</p>
+              </div>
+              <div class="back">
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="card">
+              <div class="front">
+                <img src="Img/mob-alizadeh-93or5BgHobk-unsplash.jpg" alt="" />
+                <h3>Strength Trainning</h3>
+                <p>Resistance Trainning</p>
+              </div>
+              <div class="back">
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="card">
+              <div class="front">
+                <img src="Img/sushil-ghimire-DC5akQJyH4I-unsplash.jpg" alt="" />
+                <h3>Flexibility & Mobility</h3>
+                <p>Yoga & Pilates</p>
+              </div>
+              <div class="back">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <h2>Gallery</h2>
+      <div class="line"></div>
+      <div class="galleryOverlay"></div>
+      <div class="imgBox">
+        <span>&times;</span>
+        <img src="Img/scott-webb-U5kQvbQWoG0-unsplash.jpg" alt="" />
+      </div>
+      <div class="container-1" id="gallery">
+        <div class="gallerItems">
+          <img src="Img/samuel-girven-fqMu99l8sqo-unsplash.jpg" alt="" />
+        </div>
+        <div class="gallerItems">
+          <img src="Img/karsten-winegeart-0Wra5YYVQJE-unsplash.jpg" alt="" />
+        </div>
+        <div class="gallerItems">
+          <img src="Img/valery-sysoev-LDAirERNzew-unsplash.jpg" alt="" />
+        </div>
+        <div class="gallerItems">
+          <img src="Img/sam-moghadam-khamseh-Z4Q9KHw9ofE-unsplash.jpg" alt="" />
+        </div>
+        <div class="gallerItems">
+          <img src="Img/sven-mieke-jO6vBWX9h9Y-unsplash.jpg" alt="" />
+        </div>
+        <div class="gallerItems">
+          <img src="Img/jonathan-borba-zfPOelmDc-M-unsplash.jpg" alt="" />
+        </div>
+        <div class="gallerItems">
+          <img src="Img/bruce-mars-gJtDg6WfMlQ-unsplash.jpg" alt="" />
+        </div>
+        <div class="gallerItems">
+          <img src="Img/humphrey-muleba-dDp-6pXrYik-unsplash.jpg" alt="" />
+        </div>
+        <div class="gallerItems">
+          <img src="Img/daniel-apodaca-WdoQio6HPVA-unsplash.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <p>Connect with us</p>
+      <div class="container-3">
+        <div class="col-3">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3516.5539045163264!2d83.9711397!3d28.1904792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39959581ff67455b%3A0x947df2ce43641e3d!2sDream%20Gym%2C%20Cardio%20%26%20Fitness%20Centre%20PVT%20LTD!5e0!3m2!1sen!2snp!4v1697547857083!5m2!1sen!2snp"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="col-3">
+          <input type="text" placeholder="Enter your name*" />
+          <input type="email" placeholder="Enter your email*" />
+          <input type="text" placeholder="Enter your number*" />
+          <textarea
+            name=""
+            id=""
+            cols="20"
+            rows="9"
+            placeholder="Enter you queries"
+          ></textarea>
+          <button class="cta-button">Submit</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row">
+        <div class="col">
+          <div class="logo-1">
+            <img src="Img/Logo.png" alt="" />
+            <p>
+              Take the first step towards a healthier,stronger you with our
+              unbeatable pricing plans.Let's sweat,achieve, and conquer
+              together!
+            </p>
+            <div class="social-media">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a><br />
+              <a href="#"><i class="fa-brands fa-instagram"></i></a><br />
+              <a href="#"><i class="fa-brands fa-twitter"></i></a><br />
+              <a href="#"><i class="fa-brands fa-tiktok"></i></a><br />
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <h3 style="font-weight: 300">About Us</h3>
+          <ul>
+            <li><a href="">Blogs</a></li>
+            <li><a href="">Security</a></li>
+            <li><a href="">Careers</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3 style="font-weight: 300">Contact Us</h3>
+          <ul>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms and Conditions</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3 style="font-weight: 300">Company</h3>
+          <ul>
+            <li><a href="">Business</a></li>
+            <li><a href="">Franchise</a></li>
+            <li><a href="">Network</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script> -->
+  </body>
+</html>
